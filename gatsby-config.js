@@ -3,5 +3,10 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "GovDev",
   },
-  plugins: ["gatsby-plugin-netlify-cms"],
+  plugins: [
+    "gatsby-plugin-netlify-cms",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+  ],
 };

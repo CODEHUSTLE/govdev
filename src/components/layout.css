@@ -1,0 +1,13 @@
+html,
+body {
+  background-color: #e3e1b5;
+  background-image: linear-gradient(#eceac2 2px, transparent 2px),
+    linear-gradient(90deg, #eceac2 2px, transparent 2px),
+    linear-gradient(#eceac2 1px, transparent 1px),
+    linear-gradient(90deg, #eceac2 1px, #e3e1b5 1px);
+  background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, Roboto, sans-serif, serif;
+}
